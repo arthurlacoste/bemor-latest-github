@@ -1,5 +1,9 @@
 # bemor-latest-github
 
+[![NPM Version][npm-version]][npm-url]
+[![travis][travis-badge]][travis-url]
+[![xo][xo-badge]][xo-url]
+
 Get latest releases of a Github repository.
 
 ## install
@@ -55,3 +59,10 @@ You will get this :
 
 ## Licence
 MIT
+
+[npm-version]:https://img.shields.io/npm/v/bemor-latest-github.svg
+[npm-url]: https://npmjs.org/package/bemor-latest-github
+[travis-badge]: http://img.shields.io/travis/arthurlacoste/bemor-latest-github.svg
+[travis-url]: https://travis-ci.org/arthurlacoste/bemor-latest-githubÓ
+[xo-badge]: https://img.shields.io/badge/code_style-XO-5ed9c7.svg
+[xo-url]: https://github.com/sindresorhus/xo
