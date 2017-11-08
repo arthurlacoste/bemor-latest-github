@@ -1,0 +1,34 @@
+{
+  "name": "bemor-latest-github",
+  "version": "1.0.0",
+  "description": "Get last github releases.",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo --fix && ava test/unicorn.js  --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurlacoste/bemor-latest-github.git"
+  },
+  "keywords": [
+    "latest",
+    "repository",
+    "binary",
+    "dependencies",
+    "binaries",
+    "dependency",
+    "packager"
+  ],
+  "author": "Arthur Lacoste <arthak@gmail.com>",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/arthurlacoste/bemor-latest-github/issues"
+  },
+  "homepage": "https://github.com/arthurlacoste/bemor-latest-github#readme",
+  "dependencies": {
+    "request": ""
+  },
+  "devDependencies": {
+    "ava": "^0.23.0"
+  }
+}
