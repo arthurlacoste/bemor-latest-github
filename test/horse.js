@@ -1,4 +1,3 @@
-
 const lg = require('../index.js');
 
 lg.list('jgm/pandoc', (err, data) => {
@@ -7,7 +6,6 @@ lg.list('jgm/pandoc', (err, data) => {
 	}
 	console.log(data);
 });
-
 
 lg('jgm/pandoc', (err, data) => {
 	if (err) {
