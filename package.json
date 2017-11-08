@@ -4,7 +4,7 @@
   "description": "Get last github releases.",
   "main": "index.js",
   "scripts": {
-    "test": "xo --fix && node test/horse.js  --verbose"
+    "test": "xo --fix && node test/unicorn.js  --verbose"
   },
   "repository": {
     "type": "git",
