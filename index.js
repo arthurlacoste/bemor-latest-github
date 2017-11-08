@@ -4,7 +4,6 @@ const request = require('request');
 console.log();
 
 const listDownloads = function (data, cb) {
-  // Console.log('DATA', data.assets)
 	const allDL = [];
 	for (const index in data.assets) {
 		if (Object.prototype.hasOwnProperty.call(data.assets, index)) {
