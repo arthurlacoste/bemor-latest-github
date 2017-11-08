@@ -29,7 +29,9 @@ const req = function (apprepo, cb) {
 
 		if (!err && response.statusCode === 200) {
 			cb(null, body);
-		}
+		} else {
+      cb(response);
+    }
 	});
 };
 
