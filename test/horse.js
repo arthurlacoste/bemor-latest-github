@@ -7,3 +7,11 @@ lg.list('jgm/pandoc', (err, data) => {
 	}
 	console.log(data);
 });
+
+
+lg('jgm/pandoc', (err, data) => {
+	if (err) {
+		return console.log(err);
+	}
+	console.log(data);
+});
